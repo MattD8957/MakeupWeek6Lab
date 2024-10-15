@@ -20,17 +20,13 @@ int main() {
 //run function
 	for (int i = 1; i <= numStar; i++){
 		mystar(i);    //print mystar with numStar as input
-		printf("\n");
+		printf("\n");   //print new lines
 	}
-
 }
 
-
-// end if int main
-
-//function
+//function, creates stars
 	void mystar(int i){
 		for (int j = 0; j < i; j++) {
 			printf("*");
 	}
-	}
+}
