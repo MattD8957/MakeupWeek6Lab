@@ -1,5 +1,5 @@
 /*
- * CS1111 Week6 Lab
+ * CS1111 Week6 Make-Up Lab
  * @author Casey Hartman
  * @date 10/15/2024
  * @email efhartma@mtu.edu
