@@ -12,17 +12,19 @@
 
 int main()
 {
-
+	// Amount of Rows and amount of * in the last row
 	int size = 0;
 
+	// Get desired size from user
 	printf("Please enter a position integer: ");
 	scanf("%d", &size);
 
-	for (int i = 1; i <= size; i++){
-		for(int j = 0; j < i; j++) {
+	// Draw
+	for (int i = 1; i <= size; i++){ // Every loop is 1 row
+		for(int j = 0; j < i; j++) { // Every loop draws 1 * 
 			printf("*");
 		}
-		printf("\n");
+		printf("\n"); // Starts next loop on a new line
 	}	
 
 	return 0;
