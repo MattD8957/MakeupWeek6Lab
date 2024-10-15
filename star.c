@@ -19,9 +19,9 @@ int main()
 	printf("Please enter a position integer: ");
 	scanf("%d", &size);
 
-	// Draw
+	// Print 
 	for (int i = 1; i <= size; i++){ // Every loop is 1 row
-		for(int j = 0; j < i; j++) { // Every loop draws 1 * 
+		for(int j = 0; j < i; j++) { // Every loop prints 1 * 
 			printf("*");
 		}
 		printf("\n"); // Starts next loop on a new line
